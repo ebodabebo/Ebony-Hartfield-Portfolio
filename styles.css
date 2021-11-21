@@ -20,21 +20,42 @@ body {
     background-color: rgb(160, 214, 214) ;
 }
 
-.header p {
+
+.header span {
+    width: 75%;
+}
+
+.header ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: inline-block;    
+    display: inline;
+    justify-content: flex-end;    
+}
+
+.images {
+    overflow: auto ;
+    resize:horizontal ;
 }
 
 .about-me {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     color: rgb(1, 92, 92);
     float: right;
+}
+
+.about-me h2 {
+    font-size: 40px;
+    border-bottom: brown;
 }
 
 .work {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(1, 92, 92);
     float: right;
+}
+
+.work span  {
+    height; 10px;
 }
 
 .contact-me {
