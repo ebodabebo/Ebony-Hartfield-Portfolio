@@ -47,7 +47,9 @@ body {
     display: flex ; 
     flex: initial ;
     padding-left: 5%;
-    padding-bottom: 2%;    
+    padding-bottom: 2%;
+    margin-left: 5px;
+    margin-bottom: 10px;    
 }
 
 .about-me h2 {
@@ -62,6 +64,8 @@ body {
     flex: initial;
     padding-left: 5%;
     padding-bottom: 2%;
+    margin-left: 12px;
+    margin-bottom: 10px;
 }
 
 .work h2 {
@@ -78,10 +82,7 @@ body {
     color: rgb(1, 92, 92);
     float:inherit;
     padding-left: 5%;
-}
-
-.contact-me h2 {
-    border-bottom: solid;
+    margin-left: 5px;
 }
 
 .contact-me span {
