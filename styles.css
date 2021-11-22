@@ -85,6 +85,10 @@ body {
     margin-left: 5px;
 }
 
-.contact-me span {
-    width: 75%; 
+.contact-me h2 {
+    border-bottom: solid;
+}
+
+.contact-me ul {
+    margin-left: 10%;
 }
