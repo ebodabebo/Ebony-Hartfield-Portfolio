@@ -13,6 +13,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(49, 49, 49);
     display: flex;
+    flex-direction: initial;
     padding: 5px;
 }
 
@@ -34,6 +35,8 @@ body {
 .images {
     overflow: auto ;
     resize:horizontal ;
+    display: flex ;
+    flex:initial;
 }
 
 .about-me {
@@ -41,26 +44,46 @@ body {
     font-size: 20px;
     color: rgb(1, 92, 92);
     float: right;
+    display: flex ; 
+    flex: initial ;
+    padding-left: 5%;
+    padding-bottom: 2%;    
 }
 
 .about-me h2 {
-    font-size: 40px;
-    border-bottom: brown;
+    border-right: solid;
 }
 
 .work {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     color: rgb(1, 92, 92);
-    float: right;
+    display: flex; 
+    flex: initial;
+    padding-left: 5%;
+    padding-bottom: 2%;
 }
 
-.work span  {
-    height; 10px;
+.work h2 {
+    border-right: solid;
+}
+
+.work h2 p span {
+    width: 2%;
 }
 
 .contact-me {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     color: rgb(1, 92, 92);
-    float: left;
-    padding-left: 20px;
+    float:inherit;
+    padding-left: 5%;
+}
+
+.contact-me h2 {
+    border-bottom: solid;
+}
+
+.contact-me span {
+    width: 75%; 
 }
