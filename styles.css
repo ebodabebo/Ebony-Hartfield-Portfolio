@@ -54,6 +54,7 @@ body {
 
 .about-me h2 {
     border-right: solid;
+    padding-top: 5%;
 }
 
 .work {
@@ -64,6 +65,7 @@ body {
     flex: initial;
     padding-left: 5%;
     padding-bottom: 2%;
+    padding-top: 2%;
     margin-left: 12px;
     margin-bottom: 10px;
 }
@@ -91,4 +93,12 @@ body {
 
 .contact-me ul {
     margin-left: 10%;
+}
+
+.links {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+padding-left: 5%;
+display: flexbox;
+flexbox: inline-flexbox
 }
